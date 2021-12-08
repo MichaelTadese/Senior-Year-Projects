@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8853FC26F96D5900ACDCD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8853FB26F96D5900ACDCD5 /* AppDelegate.swift */; };
+		ED8853FE26F96D5900ACDCD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8853FD26F96D5900ACDCD5 /* SceneDelegate.swift */; };
+		ED88540026F96D5900ACDCD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8853FF26F96D5900ACDCD5 /* ViewController.swift */; };
+		ED88540326F96D5900ACDCD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED88540126F96D5900ACDCD5 /* Main.storyboard */; };
+		ED88540526F96D5B00ACDCD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED88540426F96D5B00ACDCD5 /* Assets.xcassets */; };
+		ED88540826F96D5B00ACDCD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED88540626F96D5B00ACDCD5 /* LaunchScreen.storyboard */; };
+		ED88541326F96D5B00ACDCD5 /* Flash_MemorizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88541226F96D5B00ACDCD5 /* Flash_MemorizerTests.swift */; };
+		ED88541E26F96D5B00ACDCD5 /* Flash_MemorizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88541D26F96D5B00ACDCD5 /* Flash_MemorizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED88540F26F96D5B00ACDCD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8853F026F96D5800ACDCD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8853F726F96D5900ACDCD5;
+			remoteInfo = "Flash Memorizer";
+		};
+		ED88541A26F96D5B00ACDCD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8853F026F96D5800ACDCD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8853F726F96D5900ACDCD5;
+			remoteInfo = "Flash Memorizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED8853F826F96D5900ACDCD5 /* Flash Memorizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Memorizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8853FB26F96D5900ACDCD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED8853FD26F96D5900ACDCD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED8853FF26F96D5900ACDCD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED88540226F96D5900ACDCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED88540426F96D5B00ACDCD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED88540726F96D5B00ACDCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED88540926F96D5B00ACDCD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED88540E26F96D5B00ACDCD5 /* Flash MemorizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flash MemorizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED88541226F96D5B00ACDCD5 /* Flash_MemorizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash_MemorizerTests.swift; sourceTree = "<group>"; };
+		ED88541426F96D5B00ACDCD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED88541926F96D5B00ACDCD5 /* Flash MemorizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flash MemorizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED88541D26F96D5B00ACDCD5 /* Flash_MemorizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash_MemorizerUITests.swift; sourceTree = "<group>"; };
+		ED88541F26F96D5B00ACDCD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8853F526F96D5900ACDCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED88540B26F96D5B00ACDCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED88541626F96D5B00ACDCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED8853EF26F96D5800ACDCD5 = {
+			isa = PBXGroup;
+			children = (
+				ED8853FA26F96D5900ACDCD5 /* Flash Memorizer */,
+				ED88541126F96D5B00ACDCD5 /* Flash MemorizerTests */,
+				ED88541C26F96D5B00ACDCD5 /* Flash MemorizerUITests */,
+				ED8853F926F96D5900ACDCD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8853F926F96D5900ACDCD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8853F826F96D5900ACDCD5 /* Flash Memorizer.app */,
+				ED88540E26F96D5B00ACDCD5 /* Flash MemorizerTests.xctest */,
+				ED88541926F96D5B00ACDCD5 /* Flash MemorizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8853FA26F96D5900ACDCD5 /* Flash Memorizer */ = {
+			isa = PBXGroup;
+			children = (
+				ED8853FB26F96D5900ACDCD5 /* AppDelegate.swift */,
+				ED8853FD26F96D5900ACDCD5 /* SceneDelegate.swift */,
+				ED8853FF26F96D5900ACDCD5 /* ViewController.swift */,
+				ED88540126F96D5900ACDCD5 /* Main.storyboard */,
+				ED88540426F96D5B00ACDCD5 /* Assets.xcassets */,
+				ED88540626F96D5B00ACDCD5 /* LaunchScreen.storyboard */,
+				ED88540926F96D5B00ACDCD5 /* Info.plist */,
+			);
+			path = "Flash Memorizer";
+			sourceTree = "<group>";
+		};
+		ED88541126F96D5B00ACDCD5 /* Flash MemorizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED88541226F96D5B00ACDCD5 /* Flash_MemorizerTests.swift */,
+				ED88541426F96D5B00ACDCD5 /* Info.plist */,
+			);
+			path = "Flash MemorizerTests";
+			sourceTree = "<group>";
+		};
+		ED88541C26F96D5B00ACDCD5 /* Flash MemorizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED88541D26F96D5B00ACDCD5 /* Flash_MemorizerUITests.swift */,
+				ED88541F26F96D5B00ACDCD5 /* Info.plist */,
+			);
+			path = "Flash MemorizerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8853F726F96D5900ACDCD5 /* Flash Memorizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED88542226F96D5B00ACDCD5 /* Build configuration list for PBXNativeTarget "Flash Memorizer" */;
+			buildPhases = (
+				ED8853F426F96D5900ACDCD5 /* Sources */,
+				ED8853F526F96D5900ACDCD5 /* Frameworks */,
+				ED8853F626F96D5900ACDCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flash Memorizer";
+			productName = "Flash Memorizer";
+			productReference = ED8853F826F96D5900ACDCD5 /* Flash Memorizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED88540D26F96D5B00ACDCD5 /* Flash MemorizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED88542526F96D5B00ACDCD5 /* Build configuration list for PBXNativeTarget "Flash MemorizerTests" */;
+			buildPhases = (
+				ED88540A26F96D5B00ACDCD5 /* Sources */,
+				ED88540B26F96D5B00ACDCD5 /* Frameworks */,
+				ED88540C26F96D5B00ACDCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED88541026F96D5B00ACDCD5 /* PBXTargetDependency */,
+			);
+			name = "Flash MemorizerTests";
+			productName = "Flash MemorizerTests";
+			productReference = ED88540E26F96D5B00ACDCD5 /* Flash MemorizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED88541826F96D5B00ACDCD5 /* Flash MemorizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED88542826F96D5B00ACDCD5 /* Build configuration list for PBXNativeTarget "Flash MemorizerUITests" */;
+			buildPhases = (
+				ED88541526F96D5B00ACDCD5 /* Sources */,
+				ED88541626F96D5B00ACDCD5 /* Frameworks */,
+				ED88541726F96D5B00ACDCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED88541B26F96D5B00ACDCD5 /* PBXTargetDependency */,
+			);
+			name = "Flash MemorizerUITests";
+			productName = "Flash MemorizerUITests";
+			productReference = ED88541926F96D5B00ACDCD5 /* Flash MemorizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8853F026F96D5800ACDCD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					ED8853F726F96D5900ACDCD5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					ED88540D26F96D5B00ACDCD5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = ED8853F726F96D5900ACDCD5;
+					};
+					ED88541826F96D5B00ACDCD5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = ED8853F726F96D5900ACDCD5;
+					};
+				};
+			};
+			buildConfigurationList = ED8853F326F96D5800ACDCD5 /* Build configuration list for PBXProject "Flash Memorizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8853EF26F96D5800ACDCD5;
+			productRefGroup = ED8853F926F96D5900ACDCD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8853F726F96D5900ACDCD5 /* Flash Memorizer */,
+				ED88540D26F96D5B00ACDCD5 /* Flash MemorizerTests */,
+				ED88541826F96D5B00ACDCD5 /* Flash MemorizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8853F626F96D5900ACDCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED88540826F96D5B00ACDCD5 /* LaunchScreen.storyboard in Resources */,
+				ED88540526F96D5B00ACDCD5 /* Assets.xcassets in Resources */,
+				ED88540326F96D5900ACDCD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED88540C26F96D5B00ACDCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED88541726F96D5B00ACDCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8853F426F96D5900ACDCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED88540026F96D5900ACDCD5 /* ViewController.swift in Sources */,
+				ED8853FC26F96D5900ACDCD5 /* AppDelegate.swift in Sources */,
+				ED8853FE26F96D5900ACDCD5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED88540A26F96D5B00ACDCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED88541326F96D5B00ACDCD5 /* Flash_MemorizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED88541526F96D5B00ACDCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED88541E26F96D5B00ACDCD5 /* Flash_MemorizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED88541026F96D5B00ACDCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8853F726F96D5900ACDCD5 /* Flash Memorizer */;
+			targetProxy = ED88540F26F96D5B00ACDCD5 /* PBXContainerItemProxy */;
+		};
+		ED88541B26F96D5B00ACDCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8853F726F96D5900ACDCD5 /* Flash Memorizer */;
+			targetProxy = ED88541A26F96D5B00ACDCD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED88540126F96D5900ACDCD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED88540226F96D5900ACDCD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED88540626F96D5B00ACDCD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED88540726F96D5B00ACDCD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED88542026F96D5B00ACDCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED88542126F96D5B00ACDCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED88542326F96D5B00ACDCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flash Memorizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw1.Flash-Memorizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED88542426F96D5B00ACDCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flash Memorizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw1.Flash-Memorizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED88542626F96D5B00ACDCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flash MemorizerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw1.Flash-MemorizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flash Memorizer.app/Flash Memorizer";
+			};
+			name = Debug;
+		};
+		ED88542726F96D5B00ACDCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flash MemorizerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw1.Flash-MemorizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flash Memorizer.app/Flash Memorizer";
+			};
+			name = Release;
+		};
+		ED88542926F96D5B00ACDCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flash MemorizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw1.Flash-MemorizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flash Memorizer";
+			};
+			name = Debug;
+		};
+		ED88542A26F96D5B00ACDCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flash MemorizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hw1.Flash-MemorizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flash Memorizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8853F326F96D5800ACDCD5 /* Build configuration list for PBXProject "Flash Memorizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED88542026F96D5B00ACDCD5 /* Debug */,
+				ED88542126F96D5B00ACDCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED88542226F96D5B00ACDCD5 /* Build configuration list for PBXNativeTarget "Flash Memorizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED88542326F96D5B00ACDCD5 /* Debug */,
+				ED88542426F96D5B00ACDCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED88542526F96D5B00ACDCD5 /* Build configuration list for PBXNativeTarget "Flash MemorizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED88542626F96D5B00ACDCD5 /* Debug */,
+				ED88542726F96D5B00ACDCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED88542826F96D5B00ACDCD5 /* Build configuration list for PBXNativeTarget "Flash MemorizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED88542926F96D5B00ACDCD5 /* Debug */,
+				ED88542A26F96D5B00ACDCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8853F026F96D5800ACDCD5 /* Project object */;
+}
